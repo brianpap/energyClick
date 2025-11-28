@@ -1,4 +1,4 @@
-# energyClick
+# energy click
 
 energy click is a free web game that revolves around clicking an orb of energy, getting currency, and buying upgrades
 
