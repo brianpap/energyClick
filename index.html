@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="style.css">
         <title>Document</title>
     </head>
-    <body>
+    <body id="body">
         <div id="click">
             <div id="clickk">
                 <div id="spin"></div>
@@ -29,19 +29,23 @@
             </div>
             <div id="buyc">
                 <div id="buy">
+                    <template id="upgTemp">
+                        <button class="upgrade">
+                            <span class="name">1</span>
+                            <span class="cost">2</span>
+                        </button>
+                    </template>
                     <div id="buys">
-                        <template id="upgTemp">
-                            <button class="upgrade">
-                                <span class="name">1</span>
-                                <span class="cost">2</span>
-                            </button>
-                        </template>
                     </div>
-                    <div id="save"></div>
+                    <div id="save">
+                        <button onclick="save()">save</button>
+                        <button onclick="load()">load</button>
+                    </div>
                 </div>
                 <div id="credits"></div>
             </div>
         </div>
+        <p hidden id="vars"></p>
         <script src="index.js"></script>
     </body>
 </body>
