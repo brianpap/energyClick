@@ -4,7 +4,6 @@ energy click is a free web game that revolves around clicking an orb of energy, 
 
 # todos
 
-- add saving
 - improve ui
 - make discord server
 - add more upgrades and units
